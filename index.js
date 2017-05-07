@@ -1,6 +1,6 @@
 import React from 'react'
 import { renderToString } from 'react-dom/server'
-import ProductBox from './app/components/productBox'
+import ProductBox from './app/components/ProductBox'
 import 'babel-polyfill'
 const Koa = require('koa');
 const app = new Koa();
